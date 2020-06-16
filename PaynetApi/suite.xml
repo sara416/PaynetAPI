@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" parallel="tests" thread-count="1" verbose="5">
+
+	<test name="TEST 1" parallel="tests">
+		<classes>
+			<class name="tests.TestSet1_ApiTest" />
+		</classes>
+	</test>
+	<!-- <test name="TEST 2" parallel="methods">
+		<classes>
+			<class name="com.cukes.CIMBRunner.CimbRunner" />
+		</classes>
+	</test> -->  
+		
+	
+</suite>
